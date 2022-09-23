@@ -1,112 +1,113 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box ;
-    list-style-type: none;
-    text-decoration: none;
-  }
-  
-  .main {
-    top: 90px;
-    display: flex;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    position:absolute;
-    width: 100%;
-    padding-left: 250px;
-    height: 100%;
-    background-color: rgb(14, 14, 13); 
-  }
-  
-  .buttons {
-    width: 280px;
-    height: 200px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    position: relative;
-    
-  }
-  
-  .dashboard {
-    width: calc(100% - 300px);
-    height: 80%;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin: 10px;
-  }
-  
-  .dashboard h1 {
-    text-align: center;
-    padding: 20px;
-    text-decoration:underline;
-    
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
 
-  .dashboard h3 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-decoration:underline;
-    
-  }
-  
+.main {
+  top: 90px;
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  padding-left: 250px;
+  height: 100%;
+  background-color: rgb(14, 14, 13);
+}
 
-  
-  .tabela h2 {
-    color: rgb(0, 0, 0);
-    margin-top: 15px;
-    margin-left: 80px;
-  }
-
-  .tabela {
-    border-radius: 10px;
-    background: linear-gradient(to right, var(--cores-dancantes));
-    position: relative;
-    z-index: 999;
-    animation: coresDancantes 2s linear infinite;
-  }
-
-  @keyframes coresDancantes {
-    100% {
-      filter: hue-rotate(360deg);
-    }
-  }
-  
-  
-  .tabela table {
-    width: calc(100% - 15px);
-    margin-left: 10px;
-    overflow: hidden;
-    border: 2px solid rgba(0, 168, 64, 0.432);
-  }
-  
-  .tabela th {
-    background-color: rgba(0, 168, 64, 0.432);
-    text-align: center;
-    color: #fff;
-    border: px solid rgba(0, 168, 64, 0.432);
-  }
-
-  
-  
-  .tabela .par {
-    background-color: rgb(27, 25, 25); 
-  }
-  
-  .tabela .impar {
-    background-color: rgba(26, 7, 7, 0.5);
-  }
-  
-  .btn {
+.buttons {
+  width: 280px;
+  height: 200px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   position: relative;
+
+}
+
+.dashboard {
+  width: calc(100% - 300px);
+  height: 80%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.dashboard h1 {
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+
+}
+
+.dashboard h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+
+}
+
+
+
+.tabela h2 {
+  color: rgb(0, 0, 0);
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.tabela {
+  border-radius: 10px;
+  background: linear-gradient(to right, var(--cores-dancantes));
+  position: relative;
+  z-index: 999;
+  animation: coresDancantes 2s linear infinite;
+}
+
+@keyframes coresDancantes {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+.tabela table {
+  width: calc(100% - 15px);
+  margin-left: 10px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 168, 64, 0.432);
+}
+
+.tabela th {
+  background-color: rgba(0, 168, 64, 0.432);
+  text-align: center;
+  color: #fff;
+  border: px solid rgba(0, 168, 64, 0.432);
+}
+
+
+
+.tabela .par {
+  background-color: rgb(27, 25, 25);
+}
+
+.tabela .impar {
+  background-color: rgba(26, 7, 7, 0.5);
+}
+
+.btn {
+  position: relative;
+  top: 0;
+  left: 42%;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
@@ -117,72 +118,77 @@
   border-radius: 5px;
   width: 180px;
   text-align: center;
-  color: #fff;
-  }
-  
-  .btn1 {
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    padding: 10px 30px;
-    margin-Top: 10px;
-    transition: 0.5s;
-    border-radius: 5px;
-    width: 180px;
-    text-align: center;
-    }
-  
-  .btn:hover, .btn1:hover {
+  color: black;
+  justify-content: center;
+  display: flex;
+}
+
+.btn1 {
+  position: relative;
+  top: 0;
+  left: 42%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  margin-Top: 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+}
+
+.btn:hover,
+.btn1:hover {
   letter-spacing: 0.05em;
   color: #000;
   font-weight: bold;
-  }
-  
-  .btn::before{
+}
+
+.btn::before {
   content: '';
   position: absolute;
   inset: 2px;
-  background: rgba(63, 74, 67, 0.432);
+  background: white;
   border-radius: 5px;
-  }
-  
-  .btn1::before {
-    content: '';
-    position: absolute;
-    inset: 2px;
-    background: rgba(57, 65, 60, 0.432);
-    border-radius: 5px;
-    }
-  
-  .btn span, .btn1 span {
+}
+
+.btn1::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: white;
+  border-radius: 5px;
+}
+
+.btn span,
+.btn1 span {
   position: relative;
   z-index: 1;
-  }
-  
+}
 
-  .tbCenter {
-    text-align: center;
-    border-right: 1px solid rgba(242, 243, 242, 0.432);
-    }
-    
-    .par, .impar {
-      text-align: center;
-    }
-    
-    .tbright {
-    text-align: center;
-    border-left: 1px solid rgba(97, 111, 103, 0.432);
-    }
 
-    
+.tbCenter {
+  text-align: center;
+  border-right: 1px solid rgba(242, 243, 242, 0.432);
+}
+
+.par,
+.impar {
+  text-align: center;
+}
+
+.tbright {
+  text-align: center;
+  border-left: 1px solid rgba(97, 111, 103, 0.432);
+}
+
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box ;
-    list-style-type: none;
-    text-decoration: none;
-  }
-    
-      
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}

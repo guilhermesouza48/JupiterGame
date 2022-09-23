@@ -29,20 +29,16 @@ export default function Dash() {
 
                     <Tabela items={data} />
 
+                    <button onClick={() => getApi()} className="btn"><span>Atualizar</span></button>
+
                     <h3>TOP 5 Jogadores</h3>
 
                     <Tabelinha items={data} />
-
-                    <div className="buttons">
-                        <button onClick={() => getApi()} className="btn"><span>Atualizar</span></button>
-                        <a
-                            href="https://peppy-mooncake-90e2ac.netlify.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn1">
-                            <span>PLAY GAME</span>
-                        </a>
-                    </div>
+                        
+                    <a href="https://peppy-mooncake-90e2ac.netlify.app" target="_blank" rel="noopener noreferrer" className="btn1">
+                        <span>PLAY GAME</span>
+                    </a>
+                    
 
                 </div>
 

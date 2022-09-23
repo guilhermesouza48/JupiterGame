@@ -15,7 +15,7 @@ const Tabelas = props => {
                 <tr className={i % 2 === 0 ? "par" : "impar"} key={i}>
                     <td className="tbCenter"> {i + 1} </td>
                     <td>{item.JOGADOR} </td>
-                    <td className="tbright"> {item.score} pontos </td>
+                    <td className="tbright"> {item.score} SCORE </td>
                 </tr>
             )
         })
@@ -26,9 +26,9 @@ const Tabelas = props => {
             <table>
                 <thead>
                     <tr>
-                        <th>Posição</th>
-                        <th>Nome</th>
-                        <th>Pontos</th>
+                        <th>RANKING</th>
+                        <th>JOGADOR</th>
+                        <th>SCORE</th>
                     </tr>
                 </thead>
                 <tbody>
