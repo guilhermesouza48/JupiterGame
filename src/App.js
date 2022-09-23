@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/Tops'
+import Dash from './components/DashBoard'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        <h1>DASHBOARD DO GAME - JUPITER</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Venha e prove que você é capaz de fazer a melhor pontuação!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Dash/>
     </div>
+
   );
 }
 
