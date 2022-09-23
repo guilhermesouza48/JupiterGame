@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  display: flex;
+  
+}
+
+header {
+  top: 2px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 100;
+  background: rgb(255, 255, 250);
+  font-size: 16px;
+}
+
+header h1 {
+  color: rgb(58, 17, 17);
+  font-size: 2.5em;
+}
+
+header p {
+  padding-top: 15px;
+  color: rgb(58, 17, 17);
+  font-size: 1em;
+}
