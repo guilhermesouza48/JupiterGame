@@ -1,11 +1,11 @@
-Projeto realizado na FATEC-FRANCA, juntamente ao professor Marcio - DW3
+<h2>Projeto realizado na FATEC-FRANCA, juntamente ao professor Marcio - DW3</h2>
 
-<H1>BAIXAR O NODEMODULES DO PROJETO :<H1>
+<h2>BAIXAR O NODEMODULES DO PROJETO :</h2>
 
-NPM INSTALL
+<p>NPM INSTALL
 
-INICIAR O PROJETO :
+<h2>INICIAR O PROJETO :</h2>
 
-NPM START
+<p>NPM START</p>
 
 
